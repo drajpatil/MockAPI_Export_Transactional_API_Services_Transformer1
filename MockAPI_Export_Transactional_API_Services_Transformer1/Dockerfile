@@ -51,3 +51,4 @@ EXPOSE 7001
 # default entrypoint of the base image starts WireMock.
 # pass --extensions at runtime if you want explicit extension class list (optional)
 #----------------------------------------------------------------------------------------
+
