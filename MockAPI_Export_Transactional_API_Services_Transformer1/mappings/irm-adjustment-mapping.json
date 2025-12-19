@@ -1,0 +1,19 @@
+{
+  "id": "6c7d6e12-9b0f-4f3a-ae4a-1f2b3c4d5e6f",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/irm-adjustment"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["irm-adjustment-transformer"],
+    "transformerParameters": {
+      "successFile": "irm-adjustment-success-response.json",
+      "failFile": "irm-adjustment-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

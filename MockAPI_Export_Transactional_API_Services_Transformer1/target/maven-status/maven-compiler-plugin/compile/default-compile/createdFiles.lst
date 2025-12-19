@@ -1,0 +1,6 @@
+com\mockapi\transformers\irm_adjustment\IRMAdjustmentTransformer.class
+com\mockapi\transformers\efirc_issuance\eFIRCIssuanceTransformer.class
+com\mockapi\transformers\shipping_bill_extension\ShippingBillExtensionTransformer.class
+com\mockapi\transformers\irm_extension\IRMExtensionTransformer.class
+com\mockapi\transformers\shipping_bill_adjustment\ShippingBillAdjustmentTransformer.class
+com\mockapi\transformers\efirc_adjustment\eFIRCAdjustmentTransformer.class

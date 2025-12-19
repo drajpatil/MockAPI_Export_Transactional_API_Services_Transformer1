@@ -1,0 +1,19 @@
+{
+  "id": "8c2f4a71-9b65-4d4e-8e51-41a6a9f2c991",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/shipping-bill-extension"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["shipping-bill-extension-transformer"],
+    "transformerParameters": {
+      "successFile": "shipping-bill-extension-success-response.json",
+      "failFile": "shipping-bill-extension-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

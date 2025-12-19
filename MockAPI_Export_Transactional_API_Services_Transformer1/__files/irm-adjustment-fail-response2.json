@@ -1,0 +1,19 @@
+{
+    "response-header": {
+        "response-id": "api-4726665a-896d-495b-9596-01f8b2b2a8bb",
+        "response-time": "2023-03-28T15:21:48.933",
+        "status": "SUCCESS",
+        "req-hdr-request-id": "1098",
+        "req-hdr-service-name": "IRM_EXTENSION",
+        "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+          "request-source": "TradeFlow" 
+    },
+    "service-output": {
+        "process_name": "IRM_EXTENSION",
+        "processDate": "28/03/2023",
+        "process_status": "VALIDATION_FAILED",
+        "referenceNo": "APIPROCESS28032023_IRM_EXTENSION_ba631a9a-d26b-4d20-b745-17a0afd56a94",
+        "error-code": "EM_HDR_062",
+        "error-desc": "Remittance Reference Number is mandatory"
+    }
+}

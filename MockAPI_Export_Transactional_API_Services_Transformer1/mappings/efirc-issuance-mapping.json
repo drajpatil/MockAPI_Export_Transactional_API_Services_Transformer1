@@ -1,0 +1,19 @@
+{
+  "id": "9c4a1c6d-7b9f-4f5a-9b8c-91a8bff32c11",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/efirc-issuance"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["efirc-issuance-transformer"],
+    "transformerParameters": {
+      "successFile": "efirc-issuance-success-response.json",
+      "failFile": "efirc-issuance-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "response-header": {
+        "response-id": "api-b711c297-102d-4711-b9e5-1867afa00fa1",
+        "response-time": "2023-03-28T15:23:33.992",
+        "status": "SUCCESS",
+        "req-hdr-request-id": "1098",
+        "req-hdr-service-name": "IRM_ADJUSTMENT",
+        "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+        "request-source": "TradeFlow"
+    },
+    "service-output": {
+        "process_name": "IRM_ADJUSTMENT",
+        "processDate": "28/03/2023",
+        "process_status": "VALIDATION_FAILED",
+        "referenceNo": "APIPROCESS28032023_IRM_ADJUSTMENT_98178abd-bdd0-440f-82ce-aee31464ff04",
+        "error-code": "EX_WO_002,EM_HDR_062,ED_HDR_097",
+        "error-desc": "Provided Port of Discharge is Incorrect, Port of Discharge should contain characters and numbers only and length should be less than or equal to 6,Remittance Reference Number is mandatory, invalid Document Number Data, Document Number should be Alphanumeric and length should be less than or equal to 20."
+    }
+}

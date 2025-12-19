@@ -1,0 +1,18 @@
+{
+    "response-header": {
+        "response-id": "api-61848c5f-61ed-4e42-92ac-1461cd9843d0",
+        "response-time": "2023-03-28T15:22:59.837",
+        "status": "SUCCESS",
+        "req-hdr-request-id": "1098",
+        "req-hdr-service-name": "IRM_EXTENSION",
+        "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+         "request-source": "TradeFlow"   
+    },
+    "service-output": {
+      "remarks": null, 
+        "process_name": "IRM_EXTENSION",
+        "processDate": "28/03/2023",
+        "process_status": "NEW",
+        "referenceNo": "APIPROCESS28032023_IRM_EXTENSION_d24ebb6e-932a-42a5-abfc-c0374080f7df"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "response-header": {
+    "response-id": "api-5eb74313-f76c-4f3f-ae09-9933c271953c",
+    "response-time": "2023-03-28T15:26:51.162",
+    "status": "SUCCESS",
+    "req-hdr-request-id": "1098",
+    "req-hdr-service-name": "EFIRC_NOTIFICATION",
+    "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+    "request-source": "TradeFlow"
+  },
+  "service-output": {
+    "remarks": null,
+    "process_name": "EFIRC_NOTIFICATION",
+    "processDate": "28/03/2023",
+    "process_status": "NEW",
+    "referenceNo": "APIPROCESS28032023_EFIRC_NOTIFICATION_7e7c9cf1-fc7e-4e56-9920-13be55a0e483"
+  }
+}

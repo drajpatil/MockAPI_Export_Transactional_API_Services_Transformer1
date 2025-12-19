@@ -1,0 +1,41 @@
+{
+  "response-header": {
+    "response-id": "api-ed8ea683-b670-4202-8a43-26cf57c8f855",
+    "response-time": "2023-05-22T11:58:40.682",
+    "status": "SUCCESS",
+    "req-hdr-request-id": "1098",
+    "req-hdr-service-name": "BILL_ADJUSTMENT",
+    "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+    "request-source": "TradeFlow"
+  },
+  "service-output": {
+    "process_name": "BILL_ADJUSTMENT",
+    "processDate": "22/05/2023",
+    "process_status": "VALIDATION_FAILED",
+    "referenceNo": "APIPROCESS22052023_BILL_ADJUSTMENT_94913a99-45eb-4190-b7c8-5419e63d670f",
+    "exportType": "2",
+    "shippingBillNo": null,
+    "shippingBillDate": null,
+    "formNo": null,
+    "portCode": null,
+    "portOfDischarge": null,
+    "billOfEntryNumber": null,
+    "billOfEntryDate": "01/01/2022",
+    "shipmentInd": "1",
+    "adjustmentIndicator": null,
+    "writeOffDate": "01/01/2022",
+    "fileName": "Filename.csv",
+    "errorCode": "EM_HDR_001,EX_SB_003,EM_HDR_009,EM_HDR_003",
+    "errorDesc": " Port Code is Required, Write Off Indicator is Mandatory, please provide Write Off Indicator by referring to physical bill, Form Number is Required, Shipping Bill Date is Required",
+    "invoiceList": [
+      {
+        "invoiceSerialNo": null,
+        "invoiceNumber": "22",
+        "invoiceClosureIndicator": "1",
+        "writeoffAmount": "100",
+        "errorCode": "EM_DET_026",
+        "errorDesc": " Invoice Serial Number is Mandatory, please provide Invoice Serial Number by referring to physical bill"
+      }
+    ]
+  }
+}

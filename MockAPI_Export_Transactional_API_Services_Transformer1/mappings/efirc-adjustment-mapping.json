@@ -1,0 +1,19 @@
+{
+  "id": "ff32a9d4-22a1-4f98-9b23-bdd821aa10bb",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/efirc-adjustment"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["efirc-adjustment-transformer"],
+    "transformerParameters": {
+      "successFile": "efirc-adjustment-success-response.json",
+      "failFile": "efirc-adjustment-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

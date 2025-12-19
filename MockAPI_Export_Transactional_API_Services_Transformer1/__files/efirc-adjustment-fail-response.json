@@ -1,0 +1,19 @@
+{
+    "response-header": {
+        "response-id": "api-7dab9d63-8101-4bcd-8a04-db2a29c05660",
+        "response-time": "2023-03-28T15:28:24.576",
+        "status": "SUCCESS",
+        "req-hdr-request-id": "1098",
+        "req-hdr-service-name": "EFIRC_ADJUSTMENT",
+        "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+        "request-source": "TradeFlow" 
+    },
+    "service-output": {
+        "process_name": "EFIRC_ADJUSTMENT",
+        "processDate": "28/03/2023",
+        "process_status": "VALIDATION_FAILED",
+        "referenceNo": "APIPROCESS28032023_EFIRC_ADJUSTMENT_962a909b-b12f-4951-8966-40c9426ab7fa",
+        "error-code": "ED_HDR_087",
+        "error-desc": "invalid adjustment date data, Date Format should be in format dd/MM/yyyy."
+    }
+}

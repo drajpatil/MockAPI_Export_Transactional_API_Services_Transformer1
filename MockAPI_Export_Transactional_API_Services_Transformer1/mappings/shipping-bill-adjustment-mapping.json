@@ -1,0 +1,19 @@
+{
+  "id": "e7b5c0f9-1234-4f8a-b5e9-9d1a2c3b4d5f",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/shipping-bill-adjustment"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["shipping-bill-adjustment-transformer"],
+    "transformerParameters": {
+      "successFile": "shipping-bill-adjustment-success-response.json",
+      "failFile": "shipping-bill-adjustment-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "9d4a3c2b-81e6-4c9a-bd92-0a7b1e5f66aa",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/trracsapiserv/bankname/apiservices/export-transaction-api-serv/irm-extension"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["irm-extension-transformer"],
+    "transformerParameters": {
+      "successFile": "irm-extension-success-response.json",
+      "failFile": "irm-extension-fail-response.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "response-header": {
+        "response-id": "api-8ae7bb33-cf4f-4d6d-920f-f068415f94a2",
+        "response-time": "2023-03-28T15:27:16.825",
+        "status": "SUCCESS",
+        "req-hdr-request-id": "1098",
+        "req-hdr-service-name": "EFIRC_ADJUSTMENT",
+        "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+        "request-source": "TradeFlow" 
+    },
+    "service-output": {
+         "remarks": null, 
+        "process_name": "EFIRC_ADJUSTMENT",
+        "processDate": "28/03/2023",
+        "process_status": "NEW",
+        "referenceNo": "APIPROCESS28032023_EFIRC_ADJUSTMENT_7381b87b-0bbc-4d8a-863f-864542ec9902"
+    }
+}

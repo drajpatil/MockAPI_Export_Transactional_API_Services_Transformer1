@@ -1,0 +1,19 @@
+{
+  "response-header": {
+    "response-id": "api-52590735-2e5c-480c-9e81-dbac5b25b417",
+    "response-time": "2023-03-28T15:25:43.238",
+    "status": "SUCCESS",
+    "req-hdr-request-id": "1098",
+    "req-hdr-service-name": "EFIRC_NOTIFICATION",
+    "req-hdr-request-time": "23/08/2020 12.30 P.M.",
+    "request-source": "TradeFlow"
+  },
+  "service-output": {
+    "process_name": "EFIRC_NOTIFICATION",
+    "processDate": "28/03/2023",
+    "process_status": "VALIDATION_FAILED",
+    "referenceNo": "APIPROCESS28032023_EFIRC_NOTIFICATION_5ccea014-8bdf-4cf1-86af-cec391db8a68",
+    "error-code": "ED_HDR_063",
+    "error-desc": "Provided Remittance Reference Number is Incorrect. It should contain only alphanumeric characters and hyphens and maximum length of 30 characters"
+  }
+}
